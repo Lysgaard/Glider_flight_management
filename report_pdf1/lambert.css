@@ -1,0 +1,100 @@
+#wrapper {
+border-bottom:1px solid #54544C;
+border-left:1px solid #54544C;
+border-right:1px solid #54544C;
+margin-left:auto;
+margin-right:auto;
+width:800px;
+}
+#navigation {
+background-color:#FFFFFF;
+height:28px;
+width:800px;
+}
+#leftsection {
+background-color:#FFFFFF;
+float:left;
+height:431px;
+width:603px;
+}
+#widesection {
+background-color:#FFFFFF;
+float:left;
+width:800px;
+}
+#rightsection {
+float:left;
+height:431px;
+width:197px;
+}
+#textarea {
+background-image:url("images/brown_gradient.jpg");
+background-position:left center;
+background-repeat:no-repeat;
+height:415px;
+width:603px;
+}
+#textarea2 {
+background-image:url("images/brown_gradient2.jpg");
+background-position:left center;
+background-repeat:repeat-y;
+padding-right:20px;
+width:780px;
+}
+.bodycopy {
+font-family:"Times New Roman",Times,serif;
+font-size:14px;
+padding-left:40px;
+padding-right:20px;
+}
+.bodycopyblue {
+color:#10155E;
+font-family:"Times New Roman",Times,serif;
+font-size:14px;
+}
+.clientscopy {
+font-family:"Times New Roman",Times,serif;
+font-size:12px;
+padding-left:10px;
+}
+.subhead {
+color:#A56414;
+font-family:"Times New Roman",Times,serif;
+font-size:16px;
+font-weight:bold;
+padding-right:20px;
+}
+.subhead2 {
+color:#A56414;
+font-family:"Times New Roman",Times,serif;
+font-size:20px;
+font-weight:bold;
+padding-right:20px;
+}
+.headline {
+color:#10155E;
+font-family:"Times New Roman",Times,serif;
+font-size:24px;
+font-weight:bold;
+padding-left:40px;
+padding-right:20px;
+padding-top:10px;
+}
+#miniwrap {
+margin-left:auto;
+margin-right:auto;
+width:296px;
+}
+.cscopy {
+font-family:"Times New Roman",Times,serif;
+font-size:14px;
+padding-left:20px;
+padding-right:20px;
+}
+.cssubhead {
+color:#A56414;
+font-family:"Times New Roman",Times,serif;
+font-size:16px;
+font-weight:bold;
+padding-left:20px;
+}

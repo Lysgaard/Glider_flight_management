@@ -1,0 +1,12 @@
+[01-Jun-2015 08:03:49 Europe/Berlin] PHP Warning:  mysql_connect(): Can't connect to MySQL server on '216.108.238.95' (4) in /home/n563041/public_html/demo/config.php on line 10
+[01-Jun-2015 08:03:49 Europe/Berlin] PHP Warning:  mysql_select_db(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n563041/public_html/demo/config.php on line 12
+[01-Jun-2015 08:03:49 Europe/Berlin] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/n563041/public_html/demo/config.php on line 12
+[01-Jun-2015 08:03:49 Europe/Berlin] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n563041/public_html/demo/ajax/show_public_flight.php on line 21
+[01-Jun-2015 08:03:49 Europe/Berlin] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n563041/public_html/demo/ajax/show_public_flight.php on line 21
+[01-Jun-2015 08:03:49 Europe/Berlin] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/n563041/public_html/demo/ajax/show_public_flight.php on line 67
+[01-Jun-2015 08:04:34 Europe/Berlin] PHP Warning:  mysql_connect(): Can't connect to MySQL server on '216.108.238.95' (4) in /home/n563041/public_html/demo/config.php on line 10
+[01-Jun-2015 08:04:34 Europe/Berlin] PHP Warning:  mysql_select_db(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n563041/public_html/demo/config.php on line 12
+[01-Jun-2015 08:04:34 Europe/Berlin] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/n563041/public_html/demo/config.php on line 12
+[01-Jun-2015 08:04:34 Europe/Berlin] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/n563041/public_html/demo/ajax/show_public_flight.php on line 21
+[01-Jun-2015 08:04:34 Europe/Berlin] PHP Warning:  mysql_query(): A link to the server could not be established in /home/n563041/public_html/demo/ajax/show_public_flight.php on line 21
+[01-Jun-2015 08:04:34 Europe/Berlin] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/n563041/public_html/demo/ajax/show_public_flight.php on line 67
