@@ -334,25 +334,6 @@ function delete_flight(id)
 		});
 }
 
-function delete_preflight(id)
-{
-		
-		bootbox.confirm("Are you sure to delete the selected Record?", function(result)
-		{
-			if(result) 
-			{
-				$("#loading").modal('show');
-				$.ajax({
-						type: "POST",
-						url: "./ajax/delete_preflight.php",
-						data: {id:id}
-						})
-					.done(function( msg ) {
-						show_preflight();
-					});
-			}
-		});
-}
 
 
 function cancle(id)

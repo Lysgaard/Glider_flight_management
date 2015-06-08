@@ -21,7 +21,6 @@ print '<tr class="active">';
 	print '<th>Training Flight</th>';
 	print '<th>Gues Start</th>';
 	print '<th>Edit</th>';
-	print '<th>Delete</th>';
 	print '<th></th>';		
 print '</tr>';
 
@@ -37,7 +36,6 @@ while($row = mysql_fetch_object($result))
 		print '<td>'.$row->training_flight.'</td>';
 		print '<td>'.$row->guest_start.'</td>';
 		print "<td><a href=\"ajax/modal_edit_preflight.php?id=$row->id\" data-target=\"#ajax\" data-toggle=\"modal\">Edit</a></td>";
-		print "<td><a href='#' onclick=\"delete_preflight('$row->id')\" >Delete</a></td>";
 		if($row->flight_date != "" && $row->takeoff_time != "" && $row->landing_time !="")
 			print '<td>Alrady Linked</td>';
 		else
